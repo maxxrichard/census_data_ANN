@@ -107,7 +107,7 @@ The artificial neural network is used to analyse this problem for which a labell
 
 
 The sample of the first five rows are shown below by using `census.head()` command.
-<img src="img/head.png" width="700">
+<img src="img/head.png">
 
 
 ## Implemention
