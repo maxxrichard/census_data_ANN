@@ -16,7 +16,7 @@ This project is implemented in python. The following python-based packages are u
 * **numpy** : It is the fundamental package for scientific computing with python. It offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more. It provides powerful N-dimensional array, which is fast and versatile in the vectorisation, indexing, and broadcasting concepts for computing. In this project, the NumPy array is used to store the preprocessed dataset and perform mathematical operations. [More Information](https://numpy.org/)
 
 ## Dataset
-The supervised learning is used to analyse this problem for which a labelled data is required to train the model. The data is collected from the company, which tells the profit they are making from investing their shares in different expenditures. The data consists of 5 columns and 1000 rows. The sample of the first five rows are shown below by using `company.head()` command.
+The artificial neural network is used to analyse this problem for which a labelled data is required to train the model. The data is collected from (https://www.census.gov/), which tells the annual income of 32560 citizens from California along with their age, education, marital status, etc. A complete description of all the factors used as features are shown in the table below:
 
 <table>
 <thead>
@@ -40,7 +40,7 @@ The supervised learning is used to analyse this problem for which a labelled dat
 <tr>
 <td>fnlwgt</td>
 <td>Continuous</td>
-<td>The number of people the census  takers believe that observation  represents (sample weight). This  variable will not be used.</td>
+<td>The number of people the census  takers believe that observation  represents (sample weight). This  variable is not used.</td>
 </tr>
 <tr>
 <td>education</td>
@@ -100,14 +100,14 @@ The supervised learning is used to analyse this problem for which a labelled dat
 <tr>
 <td>income</td>
 <td>Categorical</td>
-<td>"&gt;50K" or "&lt;=50K", meaning  whether the person makes more  than \$50,000 annually.</td>
+<td>"&gt;50K" or "&lt;=50K", meaning whether the person makes more than $50,000 annually.</td>
 </tr>
 </tbody>
 </table>
 
-The correlation among different expenditures is shown using a heatmap below.
 
-<img src="img/heatmap.png" width="550">
+The sample of the first five rows are shown below by using `census.head()` command.
+<img src="img/head.png" width="700">
 
 
 ## Implemention
