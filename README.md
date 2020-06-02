@@ -1,4 +1,4 @@
-# Class of income using Neural Network
+# Analysis of Census Data using Artificial Neural Network
 This repository contains the implementation of artificial neural network in predicting the income of the employee based on several factors.
 
 ## Problem Statement
